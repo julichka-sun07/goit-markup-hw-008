@@ -1146,7 +1146,8 @@ h3.prioritet {
 @media screen and (min-width: 768px) {
   .podpiska {
     margin-top: 60px;
-    margin-left: 151px;
+    justify-content: center;
+    width: 100%;
   }
 }
 @media screen and (min-width: 1200px) {

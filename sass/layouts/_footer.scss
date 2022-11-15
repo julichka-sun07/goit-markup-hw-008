@@ -136,7 +136,8 @@ color: #FFFFFF ;
     }
     @media screen and (min-width:768px) {
         margin-top: 60px;
-        margin-left: 151px;  
+        justify-content: center;
+        width: 100%;  
     }
     @media screen and (min-width:1200px) {
         display: flex;
