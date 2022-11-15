@@ -1030,8 +1030,16 @@ h3.prioritet {
 @media screen and (min-width: 480px), (min-width: 768px) {
   .logo-bottom {
     align-content: space-between;
+    width: 100%;
   }
 }
+@media screen and (min-width: 1200px) {
+  .logo-bottom {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+}
+
 .nav-links-white {
   color: var(--acsent-color);
   font-weight: 700;
@@ -1047,6 +1055,12 @@ h3.prioritet {
     margin-bottom: 20px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .nav-links-white {
+    justify-content: left;
+  }
+}
+
 .logo-white {
   font-family: "Raleway";
   font-weight: 700;
@@ -1074,17 +1088,13 @@ h3.prioritet {
 
 @media screen and (min-width: 768px) {
   .footer-tab {
-    flex-direction: row;
     display: flex;
     align-content: space-between;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 }
-@media screen and (min-width: 1200px) {
-  .footer-tab {
-    flex-direction: none;
-  }
-}
-
 .one, .blok-socmeregi {
   align-items: baseline;
 }
@@ -1254,12 +1264,9 @@ h3.prioritet {
 }
 @media screen and (min-width: 1200px) {
   .address-contacts {
-    margin-left: 0;
+    justify-content: left;
     width: 231px;
     margin-bottom: 9px;
-    justify-content: baseline;
-    flex-wrap: nowrap;
-    display: block;
   }
 }
 
@@ -1585,7 +1592,7 @@ h3.prioritet {
 }
 @media screen and (min-width: 1200px) {
   .socmeregi {
-    margin-left: 0;
+    justify-content: left;
   }
 }
 
@@ -1610,13 +1617,11 @@ h3.prioritet {
 @media screen and (min-width: 1200px) {
   .blok-socmeregi {
     display: flex;
-    width: 206px;
-    margin-top: 16px;
+    width: 100%;
+    align-items: center;
     gap: 10px;
-    flex-direction: column;
     margin-left: 70px;
-    flex-wrap: nowrap;
-    margin-bottom: 0;
+    margin-top: 0;
   }
 }
 
