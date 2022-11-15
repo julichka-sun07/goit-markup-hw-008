@@ -158,6 +158,11 @@ body {
 .menu-open-btn {
   margin-left: auto;
 }
+@media screen and (min-width: 768px), (min-width: 1200px) {
+  .menu-open-btn {
+    display: none;
+  }
+}
 
 .mobe-menu {
   position: fixed;
@@ -167,6 +172,11 @@ body {
   height: 100vh;
   padding-top: 48px;
   padding-bottom: 48px;
+}
+@media screen and (min-width: 768px), (min-width: 1200px) {
+  .mobe-menu {
+    display: none;
+  }
 }
 .mobe-menu > .mobe-menu__container {
   height: 100%;
