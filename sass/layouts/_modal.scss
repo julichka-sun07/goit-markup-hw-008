@@ -18,6 +18,14 @@
     transition: transform 400ms;
     padding: 40px;
     border-radius: 4px;
+    @media screen and (max-width:479px) {
+        max-width: 320px;
+        max-height: 609px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+ 
     @media screen and (min-width:480px) {
         width: 450px;
         min-height: 609px;

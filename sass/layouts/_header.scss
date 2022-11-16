@@ -69,6 +69,15 @@
     padding-top: 24px;
     padding-bottom: 25px;
     position: relative;
+   @media screen and (min-width:320px),(min-width:768px){
+    padding-top: 16px;
+    padding-bottom: 16px;
+   }
+   @media screen and (min-width:1200px){
+    padding-top: 24px;
+    padding-bottom: 25px;
+   }
+
 }
  
 .navigation__links {
@@ -80,13 +89,21 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     margin-right: 93px;
+    @media screen and (max-width:479px) {
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+     }
+
     @media screen and (min-width:768px) {
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 0.03em;
  }
- @media screen and (min-width:1200px) {    
-     
+ @media screen and (min-width:1200px) {
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
  }
 }
 
@@ -97,11 +114,22 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    @media screen and (max-width:479px) {
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+     }
     @media screen and (min-width:768px) {
         font-size: 24px;
         line-height: 28px;
         letter-spacing: 0.03em;
      }
+     @media screen and (min-width:1200px) {
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+     }
+
 }
 
 .navigation__nav-link { 
@@ -227,6 +255,9 @@
     padding-left: 40px;
     padding-right: 40px;
     margin: 0 auto;
+    @media screen and (min-width:320px ) {
+        width: 300px;
+    }
     @media screen and (min-width:480px ) {
         width: 480px;
     }
@@ -260,6 +291,14 @@ letter-spacing: 0.02em;
 color: #212121;
 margin-bottom: 32px;
 display: inline-block;
+@media screen and (min-width:320px) {
+    font-size: 30px;
+    line-height: 37px;
+}
+@media screen and (min-width:480px) {
+    font-size: 40px;
+    line-height: 47px;
+}
 }
 
 .mobe-menu__nav-link-mob{
@@ -272,6 +311,14 @@ letter-spacing: 0.02em;
 color: #757575;
 display: block;
 margin-bottom: 64px;
+@media screen and (min-width:320px) {
+    font-size: 14px;
+    line-height: 18px;
+}
+@media screen and (min-width:480px) {
+    font-size: 24px;
+    line-height: 28px;
+}
 }
 
 .mobe-menu__nav-link-tel {
@@ -284,11 +331,27 @@ letter-spacing: 0.02em;
 color: #2196F3;
 display: inline-block;
 margin-bottom: 32px;
+@media screen and (min-width:320px) {
+    font-size: 24px;
+    line-height: 30px;
+}
+@media screen and (min-width:480px) {
+    font-size: 34px;
+    line-height: 40px;
+}
 
 }
 .mobe-menu__soc {
     display: flex;
     gap: 20px;
+    @media screen and (min-width:320px) {
+        display: flex;
+        gap: 10px;
+    }
+    @media screen and (min-width:480px) {
+        display: flex;
+        gap: 20px;
+    }
 }
 .mobe-soc {
 font-family: 'Roboto';
@@ -298,4 +361,12 @@ font-size: 18px;
 line-height: 22px;
 letter-spacing: 0.02em;
 color: #2196F3;
+@media screen and (min-width:320px) {
+    font-size: 13px;
+    line-height: 17px;
+}
+@media screen and (min-width:480px) {
+    font-size: 18px;
+    line-height: 22px;
+}
 }
